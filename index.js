@@ -15,18 +15,17 @@ function destructivelyRemoveLastKitten(){
 function destructivelyRemoveFirstKitten(){
   return kittens.shift()
 }
+
+
  var name = "Felix"
 function appendKitten(name) {
-
-  const moreCats = [name, ...kittens]
-
+  const moreCats = [...kittens, name]
 }
+
 
 var name = "Arnold"
 function prependKitten(name) {
-
  const moreCats = [name,...kittens]
-
 }
 
 function removeLastKitten(name) {
