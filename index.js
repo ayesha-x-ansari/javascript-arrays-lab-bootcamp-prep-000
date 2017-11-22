@@ -1,4 +1,4 @@
-
+destructivelyRemoveLastKitten
 var name ='Ralph'
 function destructivelyAppendKitten(name){
   return kittens.push(name)
@@ -10,5 +10,5 @@ function destructivelyPrependKitten(name){
 
 var name ='Ralph'
 function destructivelyRemoveLastKitten(){
-  return kittens.push()
+  return kittens.pop()
 }
