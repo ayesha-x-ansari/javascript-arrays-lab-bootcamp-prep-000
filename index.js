@@ -25,7 +25,7 @@ function appendKitten(name) {
 var name = "Arnold"
 function prependKitten(name) {
 
- const moreCats = [...kittens, name]
+ const moreCats = [name,...kittens]
 
 }
 
